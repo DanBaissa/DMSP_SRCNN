@@ -13,7 +13,7 @@ import tempfile
 
 from PyInstaller.utils.hooks import collect_submodules
 
-# rasterio has a Cython extension, so collect_submodules helps find it
+# rasterio has an extension, so collect_submodules helps find it
 hiddenimports = collect_submodules('rasterio')
 
 
